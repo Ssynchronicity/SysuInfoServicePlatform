@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="places">
+        <item>环保周</item>
+        <item>2018南国书香节志愿者及通讯员招募</item>
+        <item>乡村教师计划招募公告</item>
+        <item>“回响”第八期《生科人悟》</item>
+    </string-array>
+    <string-array name="place_desc">
+        <item>中山大学东校园</item>
+        <item>广交会展馆 B 区</item>
+        <item>粤东、西、北11个地市（湛江、茂名、阳江、云浮、清远、韶关、河源、梅州、汕尾、揭阳、潮州）</item>
+        <item>中山大学-东校区,中山大学-南校区,中山大学-北校区</item>
+    </string-array>
+
+    <string-array name="service_time">
+        <item>活动时间：5月21日-5月27日</item>
+        <item>活动时间：2018年8月9日至14日 (6天)</item>
+        <item>活动时间：2018至2019一学年</item>
+        <item>活动时间：5月20日</item>
+    </string-array>
+
+    <string-array name="myact_status">
+        <item>已通过</item>
+        <item>已通过</item>
+        <item>待审核</item>
+        <item>已结束</item>
+    </string-array>
+
+    <string-array name="place_details">
+        <item>在环保周的这7天里，通过打卡各种环保任务来养成环保生活的习惯 同时将环保的理念、知识和技术传播出去。
+        </item>
+        <item>2018 南国书香节期间为组委会、参展商和广大读者等提供志愿服务，协助南国书香节组委会办公室完成展馆指引、秩序维护、读者接待、拍照摄影、撰写宣传稿、信息采编等服务工作。(具备特殊技能者优先录取，如:拍照摄影、微信公众号/网站信息发布、排版设计、PS 技能等)
+        </item>
+        <item>缓解农村贫困地区教师结构性短缺的局面，提高当地教育教学水平，帮助贫困家庭学子更好地完成学业。
+        </item>
+        <item>“回响”是我们第八期《生科人悟》的主题，每个人都有自己的回响 只要你用心去“听”就可以听到
+        </item>
+    </string-array>
+    <string-array name="place_locations">
+        <item>中山大学东校园</item>
+        <item>广交会展馆 B 区</item>
+        <item>粤东、西、北11个地市（湛江、茂名、阳江、云浮、清远、韶关、河源、梅州、汕尾、揭阳、潮州）</item>
+        <item>中山大学-东校区,中山大学-南校区,中山大学-北校区</item>
+    </string-array>
+    <!--array name="place_avator">
+        <item>@drawable/a_avator</item>
+        <item>@drawable/b_avator</item>
+        <item>@drawable/c_avator</item>
+        <item>@drawable/d_avator</item>
+        <item>@drawable/e_avator</item>
+        <item>@drawable/f_avator</item>
+    </array-->
+    <array name="places_picture">
+        <item>@drawable/service1</item>
+        <item>@drawable/service2</item>
+        <item>@drawable/service3</item>
+        <item>@drawable/service4</item>
+    </array>
+
+    <string-array name="sports">
+        <item>拾忆起跑</item>
+        <item>中大路人王</item>
+        <item>一毽钟情</item>
+        <item>定向越野丨“翻”出中大的星辰大“海”</item>
+    </string-array>
+    <string-array name="sport_details">
+        <item>①本次活动为五人组队！ ②名额有限，先到先得！考验手速的时候到了！
+        </item>
+        <item>通过预赛、大师赛及总决赛等赛程，进行一对一篮球单打比赛，寻找中山大学的路人王。
+        </item>
+        <item>以小组形式进行的毽球团体赛，丰厚体育章等你来领取
+        </item>
+        <item>定向越野报名要求 全校同学均可参加 4人一组 2男2女 组内成员至少来自两个不同院系
+        </item>
+    </string-array>
+    <array name="sport_pictures">
+        <item>@drawable/sport1</item>
+        <item>@drawable/sport2</item>
+        <item>@drawable/sport3</item>
+        <item>@drawable/sport4</item>
+    </array>
+
+</resources>
