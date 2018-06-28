@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_course_table"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_gravity="center"
+    android:layout_marginBottom="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:foreground="?attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/class_table_name"
+            android:layout_width="332dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="11dp"
+            android:text="软件工程导论"
+            android:textSize="85px" />
+
+        <TextView
+            android:id="@+id/class_table_time"
+            android:layout_width="332dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/class_table_name"
+            android:layout_marginBottom="11dp"
+            android:layout_marginEnd="26dp"
+            android:layout_marginLeft="26dp"
+            android:text="周一 3-4 节" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

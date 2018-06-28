@@ -63,12 +63,26 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="?attr/colorAccent"
-                android:text="Description"
+                android:text="活动类型"
+                android:textSize="@dimen/article_titles"
+                android:layout_marginBottom="@dimen/md_keylines" />
+            <TextView
+                android:id="@+id/activity_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="@string/detail_location" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/md_keylines"
+                android:textColor="?attr/colorAccent"
+                android:text="活动简介"
                 android:textSize="@dimen/article_titles"
                 android:layout_marginBottom="@dimen/md_keylines" />
 
             <TextView
-                android:id="@+id/place_detail"
+                android:id="@+id/activity_detail"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 tools:text="@string/detail_desc" />
@@ -77,13 +91,26 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="?attr/colorAccent"
-                android:text="Location"
+                android:text="活动状态"
                 android:textSize="@dimen/article_titles"
                 android:layout_marginBottom="@dimen/md_keylines"
-                android:layout_marginTop="@dimen/md_keylines" />
+                android:layout_marginTop="@dimen/md_keylines"/>
+            <TextView
+                android:id="@+id/activity_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="进行中" />
 
             <TextView
-                android:id="@+id/place_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorAccent"
+                android:text="公益时/体育章数"
+                android:textSize="@dimen/article_titles"
+                android:layout_marginBottom="@dimen/md_keylines"
+                android:layout_marginTop="@dimen/md_keylines"/>
+            <TextView
+                android:id="@+id/activity_bonus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 tools:text="@string/detail_location" />
@@ -92,7 +119,23 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="?attr/colorAccent"
-                android:text="Time"
+                android:text="主办社团"
+                android:textSize="@dimen/article_titles"
+                android:layout_marginBottom="@dimen/md_keylines"
+                android:layout_marginTop="@dimen/md_keylines" />
+
+            <TextView
+                android:id="@+id/activity_organiser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="@string/detail_location" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorAccent"
+                android:text="活动时间"
                 android:textSize="@dimen/article_titles"
                 android:layout_marginBottom="@dimen/md_keylines"
                 android:layout_marginTop="@dimen/md_keylines" />
@@ -102,6 +145,75 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 tools:text="@string/detail_location" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorAccent"
+                android:text="活动地点"
+                android:textSize="@dimen/article_titles"
+                android:layout_marginBottom="@dimen/md_keylines"
+                android:layout_marginTop="@dimen/md_keylines" />
+
+            <TextView
+                android:id="@+id/activity_place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="@string/detail_location" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorAccent"
+                android:text="招募人数"
+                android:textSize="@dimen/article_titles"
+                android:layout_marginBottom="@dimen/md_keylines"
+                android:layout_marginTop="@dimen/md_keylines"/>
+            <TextView
+                android:id="@+id/hire_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="@string/detail_location" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorAccent"
+                android:text="招募方式"
+                android:textSize="@dimen/article_titles"
+                android:layout_marginBottom="@dimen/md_keylines"
+                android:layout_marginTop="@dimen/md_keylines"/>
+            <TextView
+                android:id="@+id/hire_way"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="@string/detail_location" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorAccent"
+                android:text="报名问卷链接"
+                android:textSize="@dimen/article_titles"
+                android:layout_marginBottom="@dimen/md_keylines"
+                android:layout_marginTop="@dimen/md_keylines"/>
+            <TextView
+                android:id="@+id/hire_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="@string/detail_location"
+                android:layout_marginBottom="@dimen/md_keylines"/>
+
+            <Button
+                android:id="@+id/public_button"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="@dimen/md_keylines"
+                android:textColor="#FFFFFF"
+                android:background="@color/colorPrimary"
+                android:layout_gravity="center"
+                android:text="发布"
+                android:layout_marginBottom="@dimen/md_keylines"/>
 
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>

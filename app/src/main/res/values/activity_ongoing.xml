@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="act_name">
+        <item>环保周</item>
+        <item>2018南国书香节志愿者及通讯员招募</item>
+        <item>乡村教师计划招募公告</item>
+        <item>“回响”第八期《生科人悟》</item>
+    </string-array>
+
+    <string-array name="act_organiser">
+        <item>中山大学青年志愿者协会</item>
+        <item>中山大学青年志愿者协会</item>
+        <item>中山大学青年志愿者协会</item>
+        <item>中山大学青年志愿者协会</item>
+    </string-array>
+
+    <string-array name="act_place">
+        <item>中山大学东校园</item>
+        <item>广交会展馆 B 区</item>
+        <item>粤东、西、北11个地市（湛江、茂名、阳江、云浮、清远、韶关、河源、梅州、汕尾、揭阳、潮州）</item>
+        <item>中山大学-东校区,中山大学-南校区,中山大学-北校区</item>
+    </string-array>
+
+    <string-array name="act_time">
+        <item>活动时间：5月21日-5月27日</item>
+        <item>活动时间：2018年8月9日至14日 (6天)</item>
+        <item>活动时间：2018至2019一学年</item>
+        <item>活动时间：5月20日</item>
+    </string-array>
+
+    <string-array name="act_status">
+        <item>进行中</item>
+        <item>进行中</item>
+        <item>招募中</item>
+        <item>招募中</item>
+    </string-array>
+
+    <string-array name="act_type">
+        <item>公益</item>
+        <item>公益</item>
+        <item>公益</item>
+        <item>公益</item>
+    </string-array>
+
+    <string-array name="act_bonus">
+        <item>8个公益时</item>
+        <item>20个公益时</item>
+        <item>最多30个公益时</item>
+        <item>待定</item>
+    </string-array>
+
+    <string-array name="hire_num">
+        <item>100</item>
+        <item>50</item>
+        <item>60</item>
+        <item>50</item>
+    </string-array>
+
+    <string-array name="hire_way">
+        <item>面试筛选</item>
+        <item>先到先得</item>
+        <item>问卷筛选</item>
+        <item>问卷筛选</item>
+    </string-array>
+
+    <string-array name="hire_link">
+        <item>https://www.bilibili.com/</item>
+        <item>https://www.bilibili.com/</item>
+        <item>https://www.bilibili.com/</item>
+        <item>https://www.bilibili.com/</item>
+    </string-array>
+
+    <array name="act_picture">
+        <item>@drawable/service1</item>
+        <item>@drawable/service2</item>
+        <item>@drawable/service3</item>
+        <item>@drawable/service4</item>
+    </array>
+</resources>

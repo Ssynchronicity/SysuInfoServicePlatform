@@ -2,6 +2,7 @@
     <string name="app_name">SysuInfoServicePlatform</string>
 
     <!-- Strings related to login -->
+    <string name="prompt_adminID">Admin ID</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password (optional)</string>
     <string name="action_sign_in">Sign in or register</string>
@@ -35,4 +36,8 @@
         deserunt mollit anim id est laborum.
     </string>
     <string name="detail_location">"8 Rue Scribe, 75009 Paris, France"</string>
+    <string name="title_activity_test">test</string>
+
+    <string name="prompt_stuID">Student ID</string>
+    <string name="prompt_clubID">Club ID</string>
 </resources>

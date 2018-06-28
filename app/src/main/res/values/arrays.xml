@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="status">
+        <item>招募中</item>
+        <item>进行中</item>
+        <item>已结束</item>
+    </string-array>
     <string-array name="places">
         <item>环保周</item>
         <item>2018南国书香节志愿者及通讯员招募</item>
         <item>乡村教师计划招募公告</item>
         <item>“回响”第八期《生科人悟》</item>
+    </string-array>
+    <string-array name="service_organiser">
+        <item>中山大学环境学院</item>
+        <item>中山大学翻译学院志愿者队</item>
+        <item>中山大学共青团委员会</item>
+        <item>中山大学生命与科学学院</item>
     </string-array>
     <string-array name="place_desc">
         <item>中山大学东校园</item>
@@ -24,6 +35,13 @@
         <item>已通过</item>
         <item>已通过</item>
         <item>待审核</item>
+        <item>待审核</item>
+    </string-array>
+
+    <string-array name="end_status">
+        <item>已结束</item>
+        <item>已结束</item>
+        <item>已结束</item>
         <item>已结束</item>
     </string-array>
 
@@ -43,14 +61,6 @@
         <item>粤东、西、北11个地市（湛江、茂名、阳江、云浮、清远、韶关、河源、梅州、汕尾、揭阳、潮州）</item>
         <item>中山大学-东校区,中山大学-南校区,中山大学-北校区</item>
     </string-array>
-    <!--array name="place_avator">
-        <item>@drawable/a_avator</item>
-        <item>@drawable/b_avator</item>
-        <item>@drawable/c_avator</item>
-        <item>@drawable/d_avator</item>
-        <item>@drawable/e_avator</item>
-        <item>@drawable/f_avator</item>
-    </array-->
     <array name="places_picture">
         <item>@drawable/service1</item>
         <item>@drawable/service2</item>
@@ -58,11 +68,19 @@
         <item>@drawable/service4</item>
     </array>
 
+
+
     <string-array name="sports">
         <item>拾忆起跑</item>
         <item>中大路人王</item>
         <item>一毽钟情</item>
         <item>定向越野丨“翻”出中大的星辰大“海”</item>
+    </string-array>
+    <string-array name="sport_organiser">
+        <item>中山大学学生会</item>
+        <item>中大东校篮协</item>
+        <item>中山大学南校园学生会体育部</item>
+        <item>中山大学翻译学院学生会</item>
     </string-array>
     <string-array name="sport_details">
         <item>①本次活动为五人组队！ ②名额有限，先到先得！考验手速的时候到了！

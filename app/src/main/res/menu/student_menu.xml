@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <group android:checkableBehavior="single">
         <item
-            android:id="@+id/my_notification"
-            android:title="我的通知"
+            android:id="@+id/log_out"
+            android:title="退出账号"
             app:showAsAction="never" />
-        <item
-            android:id="@+id/my_activity"
-            android:title="我的活动"
-            app:showAsAction="never" />
-        <item
-            android:id="@+id/my_time"
-            android:title="我的公益时"
-            app:showAsAction="never" />
-    </group>
 </menu>
